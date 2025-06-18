@@ -391,10 +391,6 @@ display: flex;
 
 
 
-
-
-
-
 /* ——— Media query (simple) ——— */
 @media (max-width: 768px) {
   .PannelsContainer { width: 100%; height: auto; }
