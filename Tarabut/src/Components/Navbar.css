@@ -1,0 +1,228 @@
+/* ======== NAVBAR CONTAINER ======== */
+.navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  display: flex;
+  background-color:RGBA(3, 8, 29, 0.9);;
+  
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  z-index: 1000;
+
+}
+
+.navbar-container {
+  max-width: 1200px;          /* matches design’s centered width */
+  margin: 0 auto;             /* center on screen */
+  display: flex;
+  align-items: center;
+  justify-content: space-between; /* vertical/horizontal padding */
+  /* font-family: "Segoe UI", sans-serif; */
+  /* padding: 0.5rem 1.5rem;  */
+  /* Adds consistent spacing */
+  gap: 2rem;              /* Reduce gap between logo and menu */
+}
+
+
+
+/* ======== LOGO ======== */
+.navbar-logo {
+  color: #ffffff;
+  font-size: 1.6rem;
+  font-weight: bold;
+  text-decoration: none;
+  position: absolute;
+  top: 25px;
+  left: 150px;
+}
+
+.logo-img {
+  width: auto;
+  display:inline;
+  /* position: absolute; */
+  top: 0px;
+  /* left: 160px; */
+  margin: auto;
+}
+.logo-Position{
+
+  /* margin-bottom: 20px;     */
+  display:inline-flex;
+  /* background-color: #ffffff; */
+}
+/* ======== MAIN MENU ======== */
+.navbar-menu {
+  display: flex;
+  align-items: center;
+  list-style: none;
+  gap: 2rem;               
+      /* space between items */
+}
+
+/* Each nav item */
+.navbar-item {
+  position: relative;          /* for its dropdown/mega menu */
+  padding: 0.4rem 0.4rem;     
+   /* makes hover area larger */
+  border-radius: 8px;
+  transition: background-color 0.2s ease;
+  font-size: 15px;
+  font-weight: 500;
+}
+
+/* Default link style (white on dark) */
+.navbar-link {
+  color: #ffffff;
+  text-decoration: none;
+  display: inline-block;
+}
+
+/* Hover over a nav item: item background → white & link text → dark */
+.navbar-item:hover {
+  background-color: #ffffff;
+}
+
+.navbar-item:hover .navbar-link {
+  color: #111010;
+}
+
+
+/* ======== “Contact Us” BUTTON ======== */
+.navbar-item.contact-button .navbar-link {
+  background-color: #6457ec;    /* blue */
+  color: #ffffff;
+  padding: 10px 18px;
+  border-radius: 6px;
+  font-weight: 600;
+}
+
+.navbar-item.contact-button .navbar-link:hover {
+    background-color: #000000;
+}
+/* Override hover background for Contact Us only */
+.navbar-item.contact-button:hover {
+  background-color: #03081D ;   
+}
+
+/* ======== DROPDOWN (About Us, Developers) ======== */
+.dropdown {
+  position: absolute;
+  top: 100%;                    /* right below the parent <li> */
+  left: 0;                      /* align under the parent <li> start */
+  background-color: #03081D;
+  padding: 1rem;
+  /* box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15); */
+  /* border-radius: 8px; */
+  z-index: 999;
+  min-width: 200px;
+  display: flex;
+  flex-direction: column;
+  gap: 0.6rem;
+}
+
+.dropdown-link {
+  color: rgb(255, 255, 255);
+  font-size: 14px;
+  font-weight: 400;
+  text-decoration: none;
+  padding: 0.2rem 0;
+  transition: color 0.2s;
+}
+
+.dropdown-link:hover {
+  text-decoration: underline;
+  color: rgb(211, 217, 239); /* or whatever accent you prefer */
+}
+
+/* ======== MEGA MENU (Solutions & Our Impact) ======== */
+.mega-menu {
+  position: absolute;
+  /* top: 100%;                    directly below parent <li> */
+  /* left: 50%;                    center under parent */
+  transform: translateX(-50%);  /* truly center horizontally */
+  background-color: #03081D;    /* same dark as navbar */
+  padding: 2rem;                /* generous padding inside */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+  /* border-radius: 8px; */
+  z-index: 999;
+  display: flex;                /* columns side by side */
+  gap: 4rem;                    /* spacing between columns */
+  color: #ffffff;               /* all text inside is white */
+  min-width: 1220px;             /* ensure wide enough for three columns */
+  min-width: 1000px;
+  /* margin-top: 20px; */
+/* left: 100px; */
+  /* box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15); */
+  box-shadow: 0px 0px 1px 2px rgba(12, 55, 105, 0.945);
+  /* box-shadow: 0px 5px 8px -5px #03081D; */
+/* margin: auto; */
+  z-index: 1000;
+  
+  flex-direction: row;
+
+}
+
+/* Each column inside mega menu */
+.menu-column {
+  display: flex;
+  width: 70%;
+  flex-direction: column;
+  gap: 0.4rem;
+  text-align: left;
+  min-width: 180px;
+}
+
+/* Header/intro text inside mega menu */
+.menu-header {
+  font-size: 12px;
+  font-weight: 600;
+  margin-bottom: 1rem;
+  color: #ffffff;
+  display: flex;
+  max-width: 292px;
+
+}
+
+/* Sub‐section titles (e.g., “Resources”, “Our Approach…”) */
+.submenu-title {
+  text-align: left;
+  font-size: 12px;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+  color: #ffffff;
+}
+
+/* Links inside mega menu (white → light grey on hover) */
+.mega-link {
+  font-size: 14px;
+  font-weight: 400;
+  color: #ffffff;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem; /* space between icon and text */
+  max-width: auto;
+
+}
+
+.mega-link:hover {
+  text-decoration: underline;
+  color: #7c3aed;  /* purple accent on hover */
+  
+}
+
+/* Icon style inside mega-links, e.g. “💡 Our Impact” */
+.icon {
+  font-size: 1rem;
+  line-height: 1;
+  /* color: #ffffff; */
+  
+}
+
+/* ======== REMOVE UNDERLINES FOR ALL ANCHORS ======== */
+a {
+  text-decoration: none;
+}
+
+

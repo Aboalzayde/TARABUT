@@ -1,0 +1,676 @@
+h1 {
+    color: black;
+    font-size: 48px;
+    font-weight: 600;
+    text-transform: none;
+    line-height: 1.8;
+    letter-spacing: normal;
+
+
+
+/* position: absolute; */
+/* width: 656.65px; */
+/* height: 68px; */
+left: 150px;
+top: 3254.73px;
+
+}
+
+h2{
+
+    color: black;
+}
+p {
+    color: black;
+}
+
+/* span { color: black;} */
+
+.Background {
+background-color: white;
+/* width: 100%; */
+padding: 20px;
+}
+
+
+.headder {
+    /* margin-right: 180px; */
+    text-align: left;
+    color: #03081D;
+    /* font-weight: 500; */
+}
+.paragraphs-container {
+    width: 80%;
+    margin: auto;
+}
+
+
+.Advantiges-container {
+    /* width: 80%; */
+    /* background-color: aqua; */
+    display: flex;
+    margin: auto;
+    /* width: 80%; */
+}
+
+.paragraph{
+/* Paragraph */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+/* padding: 19.5px 15px 1.13687e-13px; */
+
+/* position: absolute; */
+width: auto;
+/* max-width: 300px; */
+/* height: 128.39px; */
+min-height: 1px;
+left: 9.38%;
+right: 63.54%;
+top: 3324.92px;
+ justify-content:space-between;
+margin: auto;
+
+ 
+}
+.paragraph-text {
+/* Heading 4 → Unmatched connectivity */
+
+width: 450px;
+height: 37px;
+
+/* www.tarabut.com/Semantic/Heading 4 */
+/* font-family: 'SansSerif'; */
+font-style: normal;
+font-weight: 700;
+font-size: 24.8672px;
+line-height: 36px;
+/* identical to box height, or 153% */
+
+/* www.tarabut.com/Black Pearl */
+color: #03081D;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+margin: -0.11px 0px;
+text-align: left;
+
+}
+
+.span-text {
+/* Access the region’s broadest open finance network – seamlessly and securely. Tap into new markets, make data-driven decisions, and unlock growth opportunities.  */
+
+width: 451px;
+max-width: 420px;
+height: 72px;
+text-align: left;
+
+/* www.tarabut.com/SansSerif/Regular */
+/* font-family: 'SansSerif'; */
+font-style: normal;
+font-weight: 500;
+font-size: 16.25px;
+line-height: 24px;
+/* or 181% */
+
+/* www.tarabut.com/Black Pearl */
+color: #03081D;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+}
+
+.Wrap-Container {
+
+width: 65%;
+margin: auto;
+margin-top: 150px;
+margin-bottom: 150px;
+display: flex;
+}
+.image-Container {
+
+/* Container */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: flex-start;
+padding-right: 80px;
+
+/* position: absolute; */
+height: 587.25px;
+left: 165px;
+right: 735px;
+top: 70px;
+
+
+}
+
+
+.image-Togother {
+
+/* Container */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: center;
+padding: 0px;
+
+width: 395px;
+height: 537.25px;
+
+
+/* top: 970px; */
+left: 165px;
+/* position: absolute; */
+/* margin: 30px; */
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+}
+
+.Togother-Container {
+/* background-color:violet; */
+/* width: 90%; */
+margin: auto;
+padding: 20px;
+}
+
+.image-Headder {
+    text-align: left;
+    color: #03081d;
+    font-size: 45px;
+}
+
+.Description {
+    text-align: left;
+    
+
+    /* We go beyond the traditional. At Tarabut, we believe in building strong, collaborative partnerships that create lasting value. Whether you’re launching a new product, navigating regulatory change, or scaling across markets, we work alongside you every step of the way.  What you can expect: */
+
+/* position: absolute; */
+width: 511.61px;
+height: 162px;
+left: 15px;
+top: 86.97px;
+
+/* www.tarabut.com/SansSerif/Regular */
+/* font-family: 'SansSerif'; */
+font-style: normal;
+font-weight: 400;
+font-size: 15.3281px;
+line-height: 32px;
+/* or 211% */
+
+/* www.tarabut.com/Black Pearl */
+color: #03081D;
+
+
+}
+
+.ps-container{
+    text-align: left;
+    
+    
+}
+
+.expectation {
+    text-align: left;
+color: #03081d;
+/* margin-top: 40px; */
+
+    
+}
+
+.expectation-span {
+    text-align: left;
+    color: #03081d;
+    /* Designed around your goals, not just our products.  */
+
+/* position: absolute; */
+width: 358.48px;
+height: 33px;
+left: 15px;
+top: 291.83px;
+
+/* www.tarabut.com/SansSerif/Regular */
+/* font-family: 'SansSerif'; */
+font-style: normal;
+font-weight: 500;
+margin-top: 10px;
+font-size: 14.7656px;
+/* line-height: 32px; */
+/* identical to box height, or 219% */
+
+/* www.tarabut.com/Black Pearl */
+color: #03081D;
+
+
+}
+
+
+.expectation-button {
+
+
+    /* Link */
+
+/* Auto layout */
+/* display: flex; */
+flex-direction: row;
+justify-content: center;
+align-items: flex-start;
+padding: 10px 35px;
+
+/* position: absolute; */
+width: 140px;
+height: 46px;
+left: 15px;
+top: 510.88px;
+
+/* www.tarabut.com/Royal Blue */
+background: #6252DB;
+border-radius: 5px;
+
+}
+
+.expectation-button-text {
+
+    /* Let's talk */
+
+width: 70px;
+height: 26px;
+
+/* www.tarabut.com/Semantic/Link */
+font-family: 'SansSerif';
+font-style: normal;
+font-weight: 400;
+font-size: 16.875px;
+line-height: 26px;
+/* identical to box height, or 152% */
+text-align: center;
+
+/* www.tarabut.com/White */
+color: #FFFFFF;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+}
+
+.Cards-Container {
+display: flex;
+/* width: 100%; */
+margin: auto;
+/* padding: 300px; */
+  display: flex;
+  justify-content: center;
+
+    width: 80%;
+/* margin: auto; */
+
+
+}
+
+
+.Card {
+/* Container */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 20px 15px 2.27374e-13px;
+gap: 20.01px;
+
+/* position: absolute; */
+height: 709.99px;
+min-height: 1px;
+left: 36.8%;
+right: 36.81%;
+top: 4323.56px;
+
+
+}
+
+.card-image-container {
+/* Container */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: center;
+padding: 0px;
+  justify-content: center;
+margin: auto;
+width: 349.98px;
+height: 349.98px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+}
+
+.Card-image {
+/* Picture → Tarabut%20X%20Muhide%20-%20square%20dimension.jpg */
+
+width: 349.98px;
+height: 349.98px;
+
+/* background: url(.jpg); */
+border-radius: 6px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+}
+
+.Description-container {
+/* Background */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+/* padding: 45px 25px 25px; */
+gap: 20px;
+
+width: 349.98px;
+height: 320px;
+
+/* www.tarabut.com/White */
+/* background: #FFFFFF; */
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+
+
+}
+
+.info-card1, .info-card2, .info-card3 {
+/* Heading 4 */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px 0px 26px;
+
+width: 299.98px;
+height: 182px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+}
+
+.info-text {
+/* American Express Saudi Arabia and Tarabut Pioneer First-of-its-Kind Open Banking Experience to Expand Credit Access */
+
+width: 282px;
+height: 130px;
+
+/* www.tarabut.com/Semantic/Heading 4 */
+text-align: left;
+font-style: normal;
+font-weight: 700;
+font-size: 21.9375px;
+line-height: 26px;
+/* or 119% */
+
+/* www.tarabut.com/Black Pearl */
+color: #03081D;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+}
+.info-date {
+/* 10 Mar 2025 */
+
+width: 99px;
+height: 26px;
+max-width:100px;
+max-height: 30px;
+
+/* font-family: 'SansSerif'; */
+font-style: normal;
+font-weight: 400;
+font-size: 16.875px;
+line-height: 26px;
+text-align: left;
+/* identical to box height, or 154% */
+
+/* www.tarabut.com/Black Pearl */
+color: #03081D;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+}
+
+.card-button {
+
+    /* Link */
+
+box-sizing: border-box;
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: flex-start;
+padding: 11px 36px;
+
+width: 155px;
+height: 48px;
+
+/* www.tarabut.com/White */
+background: #FFFFFF;
+/* www.tarabut.com/Royal Blue */
+border: 1px solid #6252DB;
+border-radius: 5px;
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+}
+
+.card-button-text {
+/* Read more */
+
+width: 89px;
+height: 26px;
+
+/* www.tarabut.com/Semantic/Link */
+/* font-family: 'SansSerif'; */
+font-style: normal;
+font-weight: 700;
+font-size: 16.1719px;
+line-height: 26px;
+/* identical to box height, or 159% */
+text-align: center;
+
+/* www.tarabut.com/Ebony */
+color: #03081D;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+}
+/* ===== RESPONSIVE ADJUSTMENTS ===== */
+@media (max-width: 1200px) {
+    .Wrap-Container {
+        gap: 1.5rem;
+    }
+    .image-Container {
+        padding-right: 2rem;
+    }
+}
+
+@media (max-width: 1024px) {
+    .Wrap-Container {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    
+    .image-Container {
+        padding-right: 0;
+        margin-bottom: 2rem;
+        width: 100%;
+        max-width: 500px;
+    }
+    
+    .Togother-Container {
+        padding: 0;
+        width: 100%;
+        max-width: 600px;
+        margin: 0 auto;
+    }
+    
+    .Description {
+        max-width: 100%;
+        max-height: 300px;
+        text-align: center;
+    }
+    
+    .expectation-span {
+        text-align: center;
+    }
+}
+
+@media (max-width: 768px) {
+    .Advantiges-container {
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .paragraph {
+        width: 100%;
+        max-width: 500px;
+        text-align: center;
+        margin-bottom: 2rem;
+    }
+    
+    .paragraph-text, 
+    .span-text {
+        text-align: center;
+        width: 100%;
+    }
+    
+    .Cards-Container {
+        flex-direction: column;
+        align-items: center;
+        gap: 2rem;
+    }
+    
+    .Card {
+        width: 100%;
+        max-width: 400px;
+    }
+    
+    .image-Headder {
+        text-align: center;
+        margin-top: 1rem;
+    }
+    
+    .ps-container {
+        text-align: center;
+    }
+    
+    .expectation-button {
+        display: block;
+        margin: 1.5rem auto 0;
+        width: fit-content;
+    }
+}
+
+@media (max-width: 480px) {
+    .headder {
+        text-align: center;
+        font-size: 2rem;
+        line-height: 1.2;
+    }
+    
+    .image-Headder {
+        font-size: 1.5rem;
+        line-height: 1.3;
+    }
+    
+    .paragraph-text {
+        font-size: 1.3rem;
+    }
+    
+    .span-text {
+        font-size: 1rem;
+        line-height: 1.5;
+    }
+    
+    .Wrap-Container {
+        margin: 1.5rem auto;
+    }
+    
+    .Togother-Container {
+        padding: 0 1rem;
+    }
+    
+    .Description,
+    .expectation,
+    .expectation-span {
+        text-align: center;
+    }
+    
+    .expectation-span {
+        font-size: 1rem;
+        max-width: 100%;
+    }
+    
+    .Cards-Container {
+        padding: 0.5rem 0;
+    }
+    
+    .Card {
+        max-width: 350px;
+    }
+}

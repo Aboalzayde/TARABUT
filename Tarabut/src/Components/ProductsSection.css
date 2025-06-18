@@ -1,0 +1,511 @@
+/* ---------------  ProductsSection.css  --------------- */
+/* Existing global colour reset kept */
+
+span,
+h1,
+h2 {
+  color: #ffffff;
+  
+}
+.CollaborationHeading {
+  font-weight: 700px;
+  width: 100%;
+  color: white;
+}
+
+/* ——— Section wrapper & heading ——— */
+
+.Wrapper-container {
+  background: #03081d;
+  position: relative;
+  width: 100%;
+}
+
+/* Cloned spacing to match screenshot */
+.SectionHeaderBackground {
+  display: flex;
+  align-items: flex-start;
+  padding: 70px 0 50px 150px;
+}
+
+.SectionHeader {
+  /* font-family: "SansSerif"; */
+  font-weight: 400;
+  font-size: 44px;
+  /* line-height: 1.5; */
+  /* position: relative; */
+  color: white;
+}
+
+/* ——— Pannel grid ——— */
+
+.SectionPannels {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 60px;
+  
+}
+
+.PannelsContainer {
+  position: relative;
+  width: 980px;          /* CARD GRID WIDTH ( 2 × 460px + gaps ) */
+  height: 560px;         /* allow absolute-pos cards */
+  padding: 50px;
+}
+
+/* shared card style */
+.Pannel {
+  position: absolute;
+  width: 525px;
+  height: 260px;
+  background: #231f40;
+  border: 1px solid #31296e;
+  border-radius: 19px;
+  padding: 34px 36px;
+  box-sizing: border-box;
+}
+
+/* card positions (top-left / top-right / bottom-left / bottom-right) */
+.Pannel1 { top: 0;          left: 0; }
+.Pannel2 { top: 0;          right: 0; }
+.Pannel3 { top: 290px;      left: 0; }
+.Pannel4 { top: 290px;      right: 0; }
+
+/* icon */
+.imageDiv {
+  width: 42px;
+  height: 42px;
+  margin-bottom: 22px;
+}
+
+
+/* card title */
+.PannelTitle {
+  /* font-family: "SansSerif"; */
+  font-weight: 600;
+  font-size: 24px;
+  margin-bottom: 10px;
+  text-align: left;
+}
+
+/* description */
+.PannelText {
+  display: block;
+  /* font-family: "SansSerif"; */
+  font-size: 14px;
+  line-height: 18px;
+  margin-bottom: 28px;
+  width: auto;
+  /* max-width: 380px; */
+  text-align: left;
+  color: white;
+
+}
+
+/* button */
+.PannelButton {
+  border: 1px solid #4c42a9;
+  background: transparent;
+  color: #ffffff;
+  padding: 11px 36px;
+  border-radius: 7px;
+  /* font-family: "SansSerif"; */
+  font-size: 14px;
+  cursor: pointer;
+display: flex;
+
+}
+.PannelButton:hover {
+  background: #4c42a9;
+}
+
+/* ——— Collaboration slider section ——— */
+
+.SectionCollaborations {
+  display: flex;
+  justify-content: center;
+  padding: 70px 0;
+  /* width: 100%; */
+
+}
+
+.CollaborationsContainer {
+  width: 100%;
+  max-width: 980px;
+  text-align: center;
+}
+
+.HeadingContainer h2 {
+  font-family: "SansSerif";
+  font-size: 22px;
+  font-weight: 400;
+  margin-bottom: 28px;
+}
+
+/* slider wrapper */
+.SlideShowCollaborations {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+/* arrow buttons */
+.Arrow {
+  background: none;
+  border: none;
+  color: #ffffff;
+  font-size: 30px;
+  cursor: pointer;
+  padding: 8px 20px;
+
+    position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background: none;
+  border: none;
+  color: white;
+  font-size: 30px;
+  cursor: pointer;
+  z-index: 10;
+}
+
+.ArrowLeft {
+  left: -50px;
+  position: absolute;
+}
+
+.ArrowRight {
+  right: -40px;
+  position: absolute;
+
+}
+.Arrow:hover {
+  color: #b4b4ff;
+}
+
+/* .CollaborationsGroups {
+  display: flex;
+  overflow: hidden;
+  width: 720px;             
+} */
+
+.CollaborationsGroup1, .CollaborationsGroup2, .CollaborationsGroup3, .CollaborationsGroup4, .CollaborationsGroup5 {
+  display: flex;
+  min-width: 720px;         /* one page of 4 logos */
+  justify-content: space-between;
+  align-items: center;
+  /* animation: none;          add JS/animation later if needed */
+
+    min-width: 20% !important; /* Each group takes 20% of container */
+  padding: 0 10px; /* Reduced padding */
+  justify-content: space-evenly !important; /* Even logo spacing */
+
+  width: 20%; /* Each group takes 1/5 of container */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 15px;
+  padding: 0 10px;
+  box-sizing: border-box;
+
+    display: none;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+
+/* Controls layout */
+.CollabControls {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+  margin-top: 20px;
+  
+}
+
+.PlayPauseButton {
+  background: none;
+  border: none;
+  color: white;
+  font-size: 20px;
+  cursor: pointer;
+  
+}
+
+.CollaborationsGroup img {
+  /* width: 160px;
+  height: 55px; */
+  filter: brightness(0) invert(1); /* white logos */
+
+
+
+  object-fit: contain;
+  width: 140px;
+  height: 50px;
+
+  
+}
+
+  .CollaborationsGroup1 img,
+  .CollaborationsGroup2 img,
+  .CollaborationsGroup3 img,
+  .CollaborationsGroup4 img,
+  .CollaborationsGroup5 img {
+    width: 100px !important;
+    height: 35px !important;
+  }
+
+
+/* Smooth sliding */
+
+.CollaborationsGroups {
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+  transition: transform 0.5s ease-in-out;
+
+}
+
+.CollaborationsGroup {
+  width: 100%;
+  flex-shrink: 0;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 0 20px;
+  box-sizing: border-box;
+
+    position: absolute;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  opacity: 0;
+  transition: opacity 0.5s ease;
+
+}
+
+
+.CollaborationsGroup.active {
+  opacity: 1;
+}
+
+.GroupsContainer {
+  display: flex;
+  transition: transform 0.5s ease-in-out;
+  
+}
+
+/* bullets */
+.CollabBullets {
+  display: flex;
+  justify-content: center;
+  margin-top: 18px;
+  gap: 8px;
+
+
+    gap: 12px;
+  margin-top: 25px;
+
+
+    order: 2;
+  display: flex;
+  gap: 12px;
+}
+.bullet {
+  width: 9px;
+  height: 9px;
+  background: #51516a;
+  border-radius: 50%;
+  cursor: pointer;
+
+    transition: all 0.3s ease;
+
+}
+
+
+
+.bullet:hover {
+  background: #b4b4ff;
+}
+
+
+.bullet.active {
+  background: #ffffff;
+    transform: scale(1.2);
+
+}
+
+
+.PlayPauseButton {
+  background: none;
+  border: none;
+  color: white;
+  margin-left: 15px;
+  cursor: pointer;
+  
+    order: 1;
+
+}
+
+
+
+
+
+
+.GroupsContainer {
+  display: flex;
+  transition: transform 0.8s ease-in-out;
+}
+
+.CollaborationsGroups {
+  overflow: hidden;
+  width: 100%;
+}
+
+.CollaborationsGroup1,
+.CollaborationsGroup2,
+.CollaborationsGroup3,
+.CollaborationsGroup4,
+.CollaborationsGroup5 {
+  flex: 0 0 ;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ——— Media query (simple) ——— */
+@media (max-width: 768px) {
+  .PannelsContainer { width: 100%; height: auto; }
+  .Pannel,
+  .Pannel1,
+  .Pannel2,
+  .Pannel3,
+  .Pannel4 {
+    position: static;
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  .CollaborationsGroups {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    padding: 15px;
+    
+    .ArrowLeft {
+      left: 10px;
+    }
+    
+    .CollaborationsGroup img {
+        width: 100px;
+        height: 35px;
+      }
+  
+  .ArrowRight {
+    right: 10px;
+  }
+
+  }
+  @media (max-width: 480px) {
+  .CollaborationsGroup1,
+  .CollaborationsGroup2,
+  .CollaborationsGroup3,
+  .CollaborationsGroup4,
+  .CollaborationsGroup5 {
+    gap: 8px;
+  
+  }
+  
+  
+  .CollaborationsGroup1 img,
+  .CollaborationsGroup2 img,
+  .CollaborationsGroup3 img,
+  .CollaborationsGroup4 img,
+  .CollaborationsGroup5 img {
+    width: 85px !important;
+    height: 30px !important;
+  }
+
+  
+}
+}
+/* ===== RESPONSIVE ADJUSTMENTS ===== */
+@media (max-width: 1024px) {
+  .PannelsContainer {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  
+  .CollaborationsGroup1,
+  .CollaborationsGroup2,
+  .CollaborationsGroup3,
+  .CollaborationsGroup4,
+  .CollaborationsGroup5 {
+    gap: 1rem;
+    padding: 0.5rem;
+  }
+  
+  .PartnerLogo {
+    width: 100px;
+  }
+}
+
+@media (max-width: 768px) {
+  .SectionHeaderBackground {
+    padding: 2rem 1rem;
+  }
+  
+  .PannelsContainer {
+    grid-template-columns: 1fr;
+  }
+  
+  .Arrow {
+    width: 40px;
+    height: 40px;
+    font-size: 1.5rem;
+  }
+  
+  .PartnerLogo {
+    width: 80px;
+  }
+}
+
+@media (max-width: 480px) {
+  .Pannel {
+    padding: 1.5rem;
+  }
+  
+  .CollaborationHeading {
+    font-size: 1.2rem;
+  }
+  
+  .PartnerLogo {
+    width: 70px;
+  }
+  
+  .bullet {
+    width: 10px;
+    height: 10px;
+  }
+}

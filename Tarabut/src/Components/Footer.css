@@ -1,0 +1,285 @@
+.FooterBackground {
+  background-color: #03081D;
+  color: #ffffff;
+  /* padding: 60px 20px 30px; */
+  display: flex;
+  justify-content: center;
+  /* Footer */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: center;
+/* padding: 50px 0px; */
+
+/* position: absolute; */
+height: 737.56px;
+left: 0px;
+right: 0px;
+top: 5769.14px;
+
+/* www.tarabut.com/Black Pearl */
+/* background: rgb(95, 51, 51); */
+
+}
+
+.FooterContainer {
+  max-width: 1200px;
+  width: 100%;
+  padding: 50px;
+
+  
+
+}
+
+.FooterTop {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 40px;
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* margin-bottom: 20px; */
+
+}
+.LogoContainer {
+
+    /* Container */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: center;
+padding: 0px 0px 0.89px;
+margin-left: 100px;
+width: 200px;
+height: 28.8px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+}
+.LogoContainer .Logo {
+  height: 30px;
+  /* Link - Open Lightbox → Picture → Primary-horizontal%20EN-white.webp */
+
+width: 400px;
+max-width: 200px;
+height: auto;
+
+/* background: url(../../public/TarabutLogo.png); */
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+ height: 0px; /* Adjust as needed */
+  width: auto;
+  display:inline;
+  /* position: absolute; */
+  top: 0px;
+  /* left: 160px; */
+  margin: auto;
+
+
+/* Container */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: flex-start;
+padding: 0px;
+
+/* position: absolute; */
+height: 28.8px;
+left: 50px;
+right: 963.34px;
+top: 40.59px;
+
+
+}
+
+.ExternalLinks {
+  display: flex;
+  gap: 12px;
+
+}
+
+.LinkedIn {
+/* Link - Instagram */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 0px;
+
+/* position: absolute; */
+width: 30px;
+height: 30px;
+left: calc(50% - 30px/2 + 476.64px);
+top: 40px;
+
+
+}
+
+.Instagram {
+/* Link - LinkedIn */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 0px;
+
+/* position: absolute; */
+width: 30px;
+height: 30px;
+left: calc(50% - 30px/2 + 436.64px);
+top: 40px;
+
+
+}
+
+
+.Icon {
+  width: 24px;
+  height: 24px;
+  cursor: pointer;
+}
+
+.FooterCenter {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 40px;
+
+    display: flex;
+  justify-content: flex-end; /* Align columns to the right */
+  gap: 60px; /* Less space between columns */
+  margin-bottom: 20px;
+}
+
+.Column {
+  display: flex;
+  flex-direction: column;
+  gap: 1px;
+
+    display: flex;
+  flex-direction: column;
+  gap: 6px; /* Reduce space between <p> elements */
+  min-width: 160px;
+}
+
+.Column h3 {
+  font-size: 16px;
+  margin-bottom: 50px;
+  color: white;
+  text-align: left;
+  font-weight: 800;
+}
+
+.Column .Highlight {
+  color: rgb(97, 71, 209);
+    font-size: 14px;
+  /* margin-top: 15px; */
+  text-align: left;
+  font-weight: 800;
+}
+
+.Column span {
+  font-size: 14px;
+  color: white;
+  margin: 0;
+  cursor: pointer;
+  line-height: 10px;
+  text-align: left;
+  line-height: 25px;
+
+
+}
+
+.Column p:hover {
+  text-decoration: underline;
+}
+
+.FooterBottom {
+  text-align: center;
+  font-size: 12px;
+  color: #ccc;
+}
+
+.FooterInfo span {
+  display: block;
+  text-align: right;
+  /* margin-bottom: 10px;
+  max-width: 1000px;
+  margin-left: auto;
+  margin-right: auto; */
+}
+
+hr {
+  border: none;
+  border-top: 1px solid #2e2e2e;
+  margin: 20px 0;
+}
+
+.CopyRight {
+  font-size: 13px;
+  color: #999;
+}
+
+/* ===== RESPONSIVE ADJUSTMENTS ===== */
+@media (max-width: 1024px) {
+  .FooterContainer {
+    padding: 0 30px;
+  }
+  
+  .FooterCenter {
+    gap: 30px;
+  }
+}
+
+@media (max-width: 768px) {
+  .FooterTop {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20px;
+    margin-bottom: 40px;
+  }
+  
+  .FooterCenter {
+    flex-direction: column;
+    gap: 40px;
+  }
+  
+  .Column {
+    min-width: 100%;
+  }
+  
+  .Column h3 {
+    margin-bottom: 15px;
+  }
+}
+
+@media (max-width: 480px) {
+  .FooterContainer {
+    padding: 0 20px;
+  }
+  
+  .Column li {
+    font-size: 13px;
+  }
+  
+  .Info {
+    font-size: 13px;
+  }
+}

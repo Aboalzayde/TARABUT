@@ -1,0 +1,367 @@
+.ActionsPannels {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 60px;
+  margin-top: 100px;
+  /* margin-bottom: 100px; */
+  
+
+
+
+/* Background */
+
+/* Auto layout */
+flex-direction: row;
+align-items: flex-start;
+/* padding: 111px 0px 160px; */
+gap: 152px;
+
+/* position: absolute; */
+/* height: 628.89px; */
+left: 0px;
+right: 0px;
+top: 5083.25px;
+
+/* www.tarabut.com/Black Pearl */
+/* background: #03081D; */
+
+
+}
+
+.ActionPannelsContainer {
+  position: relative;
+  width: 1080px;          /* CARD GRID WIDTH ( 2 × 460px + gaps ) */
+  height: 460px;         /* allow absolute-pos cards */
+  display: flex;
+  /* margin-right: 90px; */
+  /* padding-left: 40px ; */
+
+}
+
+/* shared card style */
+.ActionPannel1, .ActionPannel2 {
+  /* position: absolute; */
+  width: 500px;
+  height: 360px;
+  background: #ffffff;
+  border: 1px solid ;
+  border-radius: 19px;
+  padding: 54px 56px;
+  box-sizing: border-box;
+  margin-bottom: 40px;
+}
+
+
+/* icon */
+.imageDiv {
+  width: 42px;
+  height: 42px;
+  margin-bottom: 22px;
+}
+
+
+/* card title */
+.ActionPannelTitle {
+  /* font-family: "SansSerif"; */
+
+  margin-bottom: 10px;
+  text-align: left;
+  color: #03081d;
+  /* Heading 3 → Talk to us  */
+
+/* position: absolute; */
+width: 200x;
+height: 45px;
+
+
+/* www.tarabut.com/Semantic/Heading 3 */
+/* font-family: 'SansSerif'; */
+font-style: normal;
+font-weight: 800;
+font-size: 27.5px;
+line-height: 45px;
+/* identical to box height, or 152% */
+
+/* www.tarabut.com/Black Pearl */
+color: #03081D;
+
+
+}
+
+/* description */
+.ActionPannelText {
+  display: block;
+  /* font-family: "SansSerif"; */
+  font-size: 15px;
+  line-height: 18px;
+  margin-bottom: 28px;
+  max-width: 400px;
+  text-align: left;
+  color: #03081d;
+  /* font-weight: 400px; */
+}
+
+
+.Buttons-Container {
+/* background-color: #6e7aaa; */
+display: flex;
+/* margin-right: 135px; */
+
+}
+/* button */
+.PannelButton1 {
+  border: 1px solid #03081d;
+  background: transparent;
+  color: #ffffff;
+  /* padding: 11px 36px; */
+  border-radius: 7px;
+  /* font-family: "SansSerif"; */
+  font-size: 14px;
+  cursor: pointer;
+display: flex;
+
+/* Link */
+
+/* Auto layout */
+display: inline;
+flex-direction: row;
+justify-content: center;
+align-items: flex-start;
+/* padding: 10px 35px; */
+margin-right: 20px;
+/* position: absolute; */
+width: 162px;
+height: 46px;
+left: 55px;
+top: 257.19px;
+
+/* www.tarabut.com/Black Pearl */
+background: #03081D;
+border-radius: 5px;
+
+
+}
+
+.PannelButton3 {
+    /* Link */
+
+/* Auto layout */
+display: inline;
+flex-direction: row;
+justify-content: center;
+align-items: flex-start;
+/* padding: 10px 35px; */
+margin-right: 20px;
+
+/* position: absolute; */
+width: 127px;
+height: 46px;
+left: 55px;
+top: 257.19px;
+
+/* www.tarabut.com/Black Pearl */
+background: #03081D;
+border-radius: 5px;
+
+}
+.PannelButton2 , .PannelButton4{
+
+    /* Link */
+
+/* Auto layout */
+display: inline;
+flex-direction: row;
+justify-content: center;
+align-items: flex-start;
+/* padding: 10px 35px; */
+
+/* position: absolute; */
+width: 169px;
+height: 46px;
+left: 191.64px;
+top: 257.19px;
+
+/* www.tarabut.com/Porcelain */
+background: #ECF0F1;
+border-radius: 7px;
+
+}
+.PannelButton1:hover, .PannelButton3:hover {
+  background: #4c42a9;
+}
+
+.PannelButton4Text:hover ,.PannelButton2Text:hover {
+  color: #4c42a9;
+}
+
+.PannelButton1Text, .PannelButton3Text {
+
+/* Get in touch */
+
+width: 152px;
+height: 26px;
+
+/* www.tarabut.com/Semantic/Link */
+/* font-family: 'SansSerif'; */
+font-style: normal;
+font-weight: 800;
+font-size: 16.0312px;
+line-height: 26px;
+/* identical to box height, or 160% */
+text-align: center;
+
+/* www.tarabut.com/White */
+color: #FFFFFF;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+}
+
+.PannelButton2Text, .PannelButton4Text {
+
+/* Join the team */
+
+width: 104px;
+height: 26px;
+
+/* www.tarabut.com/Semantic/Link */
+/* font-family: 'SansSerif'; */
+font-style: normal;
+font-weight: 700;
+font-size: 16.5938px;
+line-height: 26px;
+/* identical to box height, or 155% */
+text-align: center;
+
+/* www.tarabut.com/Black Pearl */
+color: #03081D;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+}
+
+/* ===== RESPONSIVE ADJUSTMENTS ===== */
+@media (max-width: 1024px) {
+  .ActionsPannels {
+    padding: 3rem 1rem;
+  }
+  
+  .ActionPannel1,
+  .ActionPannel2 {
+    padding: 2rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .ActionPannelsContainer {
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .ActionPannel1,
+  .ActionPannel2 {
+    width: 100%;
+    max-width: 450px;
+  }
+  
+  .Buttons-Container {
+    justify-content: center;
+  }
+}
+
+@media (max-width: 480px) {
+  .ActionPannel1,
+  .ActionPannel2 {
+    padding: 1.5rem;
+    height: auto;
+  }
+  
+  .ActionPannelTitle {
+    font-size: 1.4rem;
+  }
+  
+  .PannelButton1,
+  .PannelButton2,
+  .PannelButton3,
+  .PannelButton4 {
+    width: 100%;
+    padding: 0.75rem;
+  }
+  
+  .PannelButton1Text, .PannelButton2Text, .PannelButton3Text, .PannelButton4Text {
+    width: auto;
+    text-align: center;
+}
+  .Buttons-Container {
+    flex-direction: column;
+    gap: 0.75rem;
+  }
+}
+
+/* ===== RESPONSIVE ADJUSTMENTS ===== */
+@media (max-width: 1100px) {
+  .ActionPannel1, 
+  .ActionPannel2 {
+    width: 460px;
+    padding: 40px;
+  }
+}
+
+@media (max-width: 1024px) {
+  .ActionsPannels {
+    padding: 60px 20px;
+  }
+  
+  .ActionPannelsContainer {
+    gap: 30px;
+  }
+}
+
+@media (max-width: 768px) {
+  .ActionPannel1, 
+  .ActionPannel2 {
+    width: 100%;
+    max-width: 500px;
+    height: auto;
+    padding: 40px;
+  }
+  
+  .Buttons-Container {
+    flex-wrap: wrap;
+  }
+}
+
+@media (max-width: 480px) {
+  .ActionsPannels {
+    padding: 40px 15px;
+  }
+  
+  .ActionPannel1, 
+  .ActionPannel2 {
+    padding: 30px;
+  }
+  
+  .ActionPannelTitle {
+    font-size: 24px;
+    line-height: 36px;
+  }
+  
+  .PannelButton1,
+  .PannelButton2,
+  .PannelButton3,
+  .PannelButton4 {
+    width: 100%;
+  }
+  
+  .Buttons-Container {
+    flex-direction: column;
+  }
+}
