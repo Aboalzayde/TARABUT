@@ -1,5 +1,5 @@
 h1 {
-    color: black;
+    /* color: black; */
     font-size: 48px;
     font-weight: 600;
     text-transform: none;
@@ -38,10 +38,43 @@ padding: 20px;
     text-align: left;
     color: #03081D;
     /* font-weight: 500; */
+
+    /* Heading 2 → Enhancing financial experiences */
+
+/* position: absolute; */
+/* width: 656.65px; */
+height: 68px;
+left: 150px;
+top: 3254.73px;
+
+/* www.tarabut.com/Semantic/Heading 2 */
+/* font-family: 'SansSerif'; */
+font-style: normal;
+/* font-weight: 400; */
+font-size: 43.5px;
+/* margin: auto; */
+/* line-height: 67px;   */
+/* identical to box height, or 154% */
+
+/* www.tarabut.com/Black Pearl */
+color: #03081d;
+
+
+ font-size: 48px;
+  font-weight: 600;
+  /* line-height: 1.2; */
+  color: #03081D;
+  text-align: left;
+  margin-bottom: 60px;
+  /* padding-left: 150px; */
+  /* max-width: 100%; */
+  width: 100%;
+
 }
 .paragraphs-container {
     width: 80%;
     margin: auto;
+    
 }
 
 
@@ -51,6 +84,14 @@ padding: 20px;
     display: flex;
     margin: auto;
     /* width: 80%; */
+    
+
+     display: flex;
+  justify-content: space-between;
+  max-width: 1200px;
+  margin: 0 auto 100px;
+  /* padding: 0 150px; */
+  /* gap: 40px; */
 }
 
 .paragraph{
@@ -72,6 +113,8 @@ right: 63.54%;
 top: 3324.92px;
  justify-content:space-between;
 margin: auto;
+  flex: 1;
+  min-width: 300px;
 
  
 }
@@ -84,8 +127,8 @@ height: 37px;
 /* www.tarabut.com/Semantic/Heading 4 */
 /* font-family: 'SansSerif'; */
 font-style: normal;
-font-weight: 700;
-font-size: 24.8672px;
+font-weight: 800;
+font-size: 21px;
 line-height: 36px;
 /* identical to box height, or 153% */
 
@@ -99,6 +142,7 @@ order: 0;
 flex-grow: 0;
 margin: -0.11px 0px;
 text-align: left;
+
 
 }
 
@@ -114,7 +158,7 @@ text-align: left;
 /* font-family: 'SansSerif'; */
 font-style: normal;
 font-weight: 500;
-font-size: 16.25px;
+font-size: 14.25px;
 line-height: 24px;
 /* or 181% */
 
@@ -126,6 +170,8 @@ color: #03081D;
 flex: none;
 order: 1;
 flex-grow: 0;
+  max-width: 360px;
+
 
 }
 

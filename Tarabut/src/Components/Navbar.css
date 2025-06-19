@@ -218,6 +218,10 @@
   line-height: 1;
   /* color: #ffffff; */
   
+  transition: 0.2s linear;
+  fill: currentcolor;
+  
+
 }
 
 /* ======== REMOVE UNDERLINES FOR ALL ANCHORS ======== */

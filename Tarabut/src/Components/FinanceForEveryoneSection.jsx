@@ -57,15 +57,15 @@ We believe the future of finance is connected, embedded, and built for everyone,
           <div className="Numbers-columns-wrapper">
         <div className="column-Number" ref={ref1}>
           <p className="TargetNumber1">{count1}m+</p>
-              <span className="span1">Accessible accounts</span>
+              <span className="spanNumber1">Accessible accounts</span>
             </div>
         <div className="column-Number" ref={ref2}>
           <p className="TargetNumber2">{count2}+</p>
-              <span className="span2">Fintechs and businesses supported</span>
+              <span className="spanNumber2">Fintechs and businesses supported</span>
             </div>
         <div className="column-Number" ref={ref3}>
           <p className="TargetNumber3">{count3}+</p>
-              <span className="span3">Banks and financial institutions connected</span>
+              <span className="spanNumber3">Banks and financial institutions connected</span>
             </div>
           </div>
 
@@ -118,6 +118,9 @@ We believe the future of finance is connected, embedded, and built for everyone,
             </div>
 
             <div className="slide-controls">
+              <button className="pause-toggle" onClick={() => setIsPaused(!isPaused)}>
+                {isPaused ? "▶" : "⏸"}
+              </button>
               <div className="bullets">
                 {[...Array(totalSlides)].map((_, i) => (
                   <span
@@ -127,9 +130,6 @@ We believe the future of finance is connected, embedded, and built for everyone,
                   />
                 ))}
               </div>
-              <button className="pause-toggle" onClick={() => setIsPaused(!isPaused)}>
-                {isPaused ? "▶" : "⏸"}
-              </button>
             </div>
           </div>
 

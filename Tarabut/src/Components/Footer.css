@@ -181,7 +181,7 @@ top: 40px;
 
 .Column h3 {
   font-size: 16px;
-  margin-bottom: 50px;
+  margin-bottom: 30px;
   color: white;
   text-align: left;
   font-weight: 800;
@@ -196,7 +196,7 @@ top: 40px;
 }
 
 .Column span {
-  font-size: 14px;
+  font-size: 13px;
   color: white;
   margin: 0;
   cursor: pointer;
@@ -220,21 +220,24 @@ top: 40px;
 .FooterInfo span {
   display: block;
   text-align: right;
-  /* margin-bottom: 10px;
+  /*
   max-width: 1000px;
   margin-left: auto;
   margin-right: auto; */
+  font-size: 9px;
+  line-height:1.5rem;
 }
 
 hr {
   border: none;
-  border-top: 1px solid #2e2e2e;
+  border-top: 1px solid  rgb(52, 73, 94);
   margin: 20px 0;
 }
 
 .CopyRight {
-  font-size: 13px;
-  color: #999;
+  margin-top: 50px;
+  font-size: 14px;
+    color: rgb(52, 73, 94);
 }
 
 /* ===== RESPONSIVE ADJUSTMENTS ===== */

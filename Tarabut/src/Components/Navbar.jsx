@@ -30,10 +30,10 @@ const Navbar = () => {
             {activeDropdown === "about" && (
               <div className="dropdown">
                 <Link to="/Home" className="dropdown-link">
-                  About Us
+                    <span className="icon">💡</span> About Us
                 </Link>
                 <Link to="/join-the-team" className="dropdown-link">
-                  Join the Team
+                    <span className="icon">💡</span> Join the team
                 </Link>
               </div>
             )}
@@ -150,10 +150,10 @@ const Navbar = () => {
             {activeDropdown === "developers" && (
               <div className="dropdown">
                 <Link to="/portal-login" className="dropdown-link">
-                  Portal Log In
+                    <span className="icon">💡</span> Portal Log In
                 </Link>
                 <Link to="/documentation" className="dropdown-link">
-                  Documentation
+                    <span className="icon">📚</span>Documentation
                 </Link>
               </div>
             )}

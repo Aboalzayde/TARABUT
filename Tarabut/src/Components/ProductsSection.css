@@ -9,7 +9,7 @@ h2 {
 }
 .CollaborationHeading {
   font-weight: 700px;
-  width: 100%;
+  width: auto;
   color: white;
 }
 
@@ -25,16 +25,42 @@ h2 {
 .SectionHeaderBackground {
   display: flex;
   align-items: flex-start;
-  padding: 70px 0 50px 150px;
+  padding: 50px 0 50px 0px;
+  margin-right: 570px;
 }
 
 .SectionHeader {
   /* font-family: "SansSerif"; */
-  font-weight: 400;
-  font-size: 44px;
+  font-weight: 600;
+  font-size: 41px;
   /* line-height: 1.5; */
   /* position: relative; */
   color: white;
+  
+
+  /* Heading 2 → All the products you need */
+
+width: auto;
+height: 68px;
+margin: auto;
+
+/* www.tarabut.com/Semantic/Heading 2 */
+/* font-family: 'SansSerif'; */
+font-style: normal;
+font-weight: 600;
+font-size: 41.125px;
+/* line-height: 67px; */
+/* identical to box height, or 156% */
+
+/* www.tarabut.com/White */
+color: #FFFFFF;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
 }
 
 /* ——— Pannel grid ——— */
@@ -42,15 +68,15 @@ h2 {
 .SectionPannels {
   display: flex;
   justify-content: center;
-  padding-bottom: 60px;
+  /* padding-bottom: 60px; */
   
 }
 
 .PannelsContainer {
   position: relative;
-  width: 980px;          /* CARD GRID WIDTH ( 2 × 460px + gaps ) */
-  height: 560px;         /* allow absolute-pos cards */
-  padding: 50px;
+  width: 1000px;          /* CARD GRID WIDTH ( 2 × 460px + gaps ) */
+  height: 500px;         /* allow absolute-pos cards */
+  padding: 40px;
 }
 
 /* shared card style */
@@ -77,7 +103,24 @@ h2 {
   height: 42px;
   margin-bottom: 22px;
 }
+svg {
 
+      font-family: "Founders Grotesk", monospace;
+    font-size: 16px;
+    font-weight: normal;
+    text-transform: none;
+    line-height: 1.8;
+    letter-spacing: normal;
+    color: rgb(3, 8, 29);
+    word-break: break-word;
+    overflow-wrap: break-word;
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    height: 75%;
+    width: 75%;
+    fill: #C0BAF1 !important;
+}
 
 /* card title */
 .PannelTitle {
@@ -112,9 +155,10 @@ h2 {
   /* font-family: "SansSerif"; */
   font-size: 14px;
   cursor: pointer;
-display: flex;
+  display: flex;
 
 }
+
 .PannelButton:hover {
   background: #4c42a9;
 }
@@ -131,7 +175,7 @@ display: flex;
 
 .CollaborationsContainer {
   width: 100%;
-  max-width: 980px;
+  max-width: 1080px;
   text-align: center;
 }
 
@@ -227,6 +271,9 @@ display: flex;
   gap: 15px;
   margin-top: 20px;
   
+
+
+  
 }
 
 .PlayPauseButton {
@@ -235,7 +282,19 @@ display: flex;
   color: white;
   font-size: 20px;
   cursor: pointer;
+
   
+
+  /* Button - Pause */
+
+/* position: absolute; */
+width: 12px;
+height: 12px;
+/* margin: auto; */
+left: calc(50% - 12px/2 - 37px);
+top: calc(50% - 12px/2 + 91.5px);
+
+
 }
 
 .CollaborationsGroup img {
@@ -265,10 +324,10 @@ display: flex;
 /* Smooth sliding */
 
 .CollaborationsGroups {
-  width: 100%;
+  /* width: 100%; */
   overflow: hidden;
   position: relative;
-  transition: transform 0.5s ease-in-out;
+  transition: transform 0.7s ease-in-out;
 
 }
 
@@ -302,13 +361,17 @@ display: flex;
   
 }
 
-/* bullets */
+/* Bullets */
 .CollabBullets {
   display: flex;
   justify-content: center;
   margin-top: 18px;
   gap: 8px;
 
+
+  align-items: center;
+  /* padding: 12px 0; */
+  /* gap: 20px; */
 
     gap: 12px;
   margin-top: 25px;
@@ -317,28 +380,37 @@ display: flex;
     order: 2;
   display: flex;
   gap: 12px;
+
+
+
+  /* align-items: center; */
+  /* padding: 12px 0; */
+  /* gap: 20px; */
 }
-.bullet {
+.Bullet {
   width: 9px;
   height: 9px;
-  background: #51516a;
-  border-radius: 50%;
+  /* background: #4b5a94; */
+  border-radius: 50% ;
+      border: 1px solid #e2e2e2;
+
   cursor: pointer;
-
-    transition: all 0.3s ease;
-
+    transition: all 0.1s ease;
+  /* display: ; */
+  
 }
 
 
 
-.bullet:hover {
-  background: #b4b4ff;
-}
-
-
-.bullet.active {
+.Bullet:hover {
   background: #ffffff;
-    transform: scale(1.2);
+
+}
+
+
+.Bullet.active {
+  background: #ffffff;
+    /* transform: scale(1.2); */
 
 }
 
@@ -347,11 +419,18 @@ display: flex;
   background: none;
   border: none;
   color: white;
-  margin-left: 15px;
+  /* margin-left: 15px; */
   cursor: pointer;
   
-    order: 1;
+    order: 0;
 
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* padding: 12px 0; */
+  padding: 0;
+  /* gap: 20px; */
 }
 
 
@@ -471,7 +550,14 @@ display: flex;
   .SectionHeaderBackground {
     padding: 2rem 1rem;
   }
-  
+  .SectionHeader {
+    font-size: 40px;
+    width: 380px;
+    text-align: center;
+    /* margin: 30px; */
+    margin-bottom: 70px;
+    font-weight: 800;
+  }
   .PannelsContainer {
     grid-template-columns: 1fr;
   }
@@ -500,7 +586,7 @@ display: flex;
     width: 70px;
   }
   
-  .bullet {
+  .Bullet {
     width: 10px;
     height: 10px;
   }
